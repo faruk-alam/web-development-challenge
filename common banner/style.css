@@ -1,0 +1,27 @@
+.banner{
+    margin: 10px 15px;
+    border: 2px solid #242020;
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    --banner-txt-success: green;
+    --banner-bg-success: rgb(157, 235, 157);
+    --banner-txt-warning: yellow;
+    --banner-bg-warning: rgb(250, 250, 172);
+    --banner-txt-danger: red;
+    --banner-bg-danger: rgb(235, 146, 146);
+}
+.bn-success{
+    color: var(--banner-txt-success);
+    background: var(--banner-bg-success);
+}
+.bn-warning{
+    color: var(--banner-txt-warning);
+    background: var(--banner-bg-warning);
+}
+.bn-danger{
+    color: var(--banner-txt-danger);
+    background: var(--banner-bg-danger);
+}

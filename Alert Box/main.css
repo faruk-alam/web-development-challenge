@@ -1,0 +1,21 @@
+.alert-container{
+    --background-color:#222220;
+    --text-color: #65d8d2f1;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 2px;
+    border-radius:7px;
+    background-color: var(--background-color);
+
+}
+.alert{
+    display: flex;
+    align-items: center;
+    color:var(--text-color);
+}
+.alert-message{
+    font-size:larger;
+    font-weight: bold;
+    color:var(--text-color);
+}
